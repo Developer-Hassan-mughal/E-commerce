@@ -1,0 +1,82 @@
+.suggestedProducts{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.suggestedProducts h2{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.suggestedProductsContainer{
+    overflow: auto;
+    display: flex;
+    flex-grow: 1;
+    scroll-behavior: smooth;
+    width: 100vw;
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+.suggestedProductsContainer::-webkit-scrollbar {
+    height: 5px;
+  }
+  
+  .suggestedProductsContainer::-webkit-scrollbar-thumb {
+    background-color: #7f8c8da8;
+    border-radius: 4px;
+  }
+  
+  .suggestedProductsContainer::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+.suggestedProductCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.251);
+    background-color: #fff;
+    margin: 20px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .suggestedProductCard img {
+    height: 200px;
+    margin-bottom: 10px;
+  }
+  
+  .suggestedProductCard h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .suggestedProductCard p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .suggestedProductCard button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .suggestedProductCard button:hover {
+    background-color: #0056b3;
+  }
+  
+.Link{
+    text-decoration: none;
+}
