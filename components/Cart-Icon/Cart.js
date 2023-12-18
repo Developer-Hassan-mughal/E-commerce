@@ -4,6 +4,10 @@ import { useSelector } from 'react-redux'
 
 const Cart = () => {
   const {cartTotalQuantity} = useSelector(state => state.cart)
+  useEffect(() => {
+
+  }, [cartTotalQuantity])
+  
     
   return (
     <div>
